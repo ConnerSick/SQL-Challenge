@@ -1,4 +1,4 @@
--- 1. Employee details and salary
+-- 1. Employee details and salaries
 select 
 	employees.emp_no,
 	employees.last_name,

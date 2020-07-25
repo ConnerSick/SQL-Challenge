@@ -3,10 +3,12 @@ titles
 title_id varchar pk
 title varchar
 
+
 departments
 -
 dept_no varchar PK
 dept_name varchar
+
 
 employees
 -
@@ -18,15 +20,18 @@ last_name varchar
 sex varchar
 hire_date date
 
+
 salaries
 -
 emp_no int PK FK - employees.emp_no
 salary int
 
+
 dept_manager
 -
 emp_no int PK FK - employees.emp_no
 dept_no varchar PK FK - departments.dept_no
+
 
 dept_emp
 -
